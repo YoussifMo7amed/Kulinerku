@@ -7,9 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:focus_store/kulinerku.dart';
-
-import 'package:focus_store/main.dart';
+import 'package:kulinerku/kulinerku.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

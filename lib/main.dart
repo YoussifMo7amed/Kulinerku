@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:focus_store/kulinerku.dart';
+import 'package:kulinerku/kulinerku.dart';
 
 
 void main() {
