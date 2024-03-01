@@ -1,16 +1,8 @@
-# focus_store
+# Kulinerku 😍
+I ts a Resturant project with 3 apps🔍
+The First one is Customer app✅
+The seconed one is Resturant app ✅
+The third one is supplier✅
+![Group 2](https://github.com/YoussifMo7amed/Kulinerku/assets/152876266/f1907e93-02ea-433a-8354-041104ad267f)
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
