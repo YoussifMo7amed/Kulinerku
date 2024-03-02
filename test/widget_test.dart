@@ -7,12 +7,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:kulinerku/core/routing/app_router.dart';
 import 'package:kulinerku/kulinerku.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const Kulinerku());
+    await tester.pumpWidget( Kulinerku(appRouter: AppRouter(),));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
