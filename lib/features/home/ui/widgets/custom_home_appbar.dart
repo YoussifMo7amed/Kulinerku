@@ -1,12 +1,9 @@
 // ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
 import '../../../../core/theming/styles.dart';
-
-PreferredSizeWidget appBar(){
+PreferredSizeWidget customHomeAppBar(){
  return  AppBar(
 scrolledUnderElevation: 0,
         backgroundColor: Colors.white,

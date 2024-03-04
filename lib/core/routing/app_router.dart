@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kulinerku/core/routing/routers.dart';
 import 'package:kulinerku/features/home/ui/home_screen.dart';
+import 'package:kulinerku/features/profile/ui/widgets/edit_profile_screen.dart';
 import '../../features/home/ui/widgets/resturant_details.dart';
 import '../../features/onboarding/ui/onboarding.dart';
 
@@ -19,19 +20,19 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const HomeScreen(),
         );
-        case Routes.editprofile:
-        return MaterialPageRoute(
-          builder: (_) => Container(),
-        );
         case Routes.resturantDetails:
         return MaterialPageRoute(
-          builder: (_) => ResturantDetails(),
+          builder: (_) =>const ResturantDetails(),
+        );
+        case Routes.editProfile:
+        return MaterialPageRoute(
+          builder: (_) =>const EditProfile(),
         );
 
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
-            body: Text("No route Defined For $settings.name"),
+            body: Center(child: Text("No route Defined For $settings.name")),
           ),
         );
     }
