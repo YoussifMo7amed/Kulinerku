@@ -19,7 +19,7 @@ class OnBoarding extends StatelessWidget {
         child: Column(
           children: [
             PageViewBuilder(controler: controler, isLast: isLast),
-            verticalSpace(20),
+            verticalSpace(20.h),
            
             SmoothIndicetor(
               controler: controler,

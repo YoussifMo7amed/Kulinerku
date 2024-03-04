@@ -64,7 +64,7 @@ dependencies:
   google_fonts: ^6.1.0
   #Customizable animated page indicator with a set of built-in effects.
   smooth_page_indicator: ^1.1.0
-  # Flutter Localization is a package use for in-app localization with map data.
+  #showing a floating widget that can be used as a tab bar, bottom navigation bar
   flutter_localizations:
     sdk: flutter
 

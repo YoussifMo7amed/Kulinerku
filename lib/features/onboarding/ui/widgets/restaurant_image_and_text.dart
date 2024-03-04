@@ -1,13 +1,11 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kulinerku/core/helper/extentions.dart';
 import 'package:kulinerku/core/helper/spacing.dart';
 import 'package:kulinerku/core/routing/routers.dart';
 import 'package:kulinerku/core/theming/colors.dart';
-
 import '../../../../core/widgets/app_text_button.dart';
 import '../../data/model/onboarding_model.dart';
 import 'package:flutter_svg/svg.dart';
@@ -44,8 +42,8 @@ class _PageViewBuilderState extends State<PageViewBuilder> {
     return Column(
       children: [
         SizedBox(
-          height: 600,
-          width: 400,
+          height: 550.h,
+          width: 400.w,
           child: PageView.builder(
             physics: const BouncingScrollPhysics(),
             onPageChanged: (int value) {
@@ -74,7 +72,7 @@ class _PageViewBuilderState extends State<PageViewBuilder> {
             textStyle:!widget.isLast ? TextStyles.font16DeepOrangeExtraBold: TextStyles.font18WhiteSemiBold,
             onPressed: () {
              !widget.isLast ? widget.controler.nextPage(
-                  duration: Duration(milliseconds: 750),
+                  duration: const Duration(milliseconds: 750),
                   curve: Curves.fastLinearToSlowEaseIn):context.pushNamedAndRemoveUntil(Routes.homescreen, predicate: (_) => false);
             }),
       ],
@@ -87,7 +85,7 @@ Widget onBoardingSCreens(BoardingModel model) =>
       verticalSpace(150.h),
       SvgPicture.asset(
         '${model.image}',
-        height: 230,
+        height: 230.h,
       ),
       verticalSpace(60.h),
       Text('${model.title}', style: TextStyles.font24LightBlackBold),

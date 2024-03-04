@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kulinerku/core/routing/routers.dart';
 import 'package:kulinerku/features/home/ui/home_screen.dart';
+import '../../features/home/ui/widgets/resturant_details.dart';
 import '../../features/onboarding/ui/onboarding.dart';
 
 class AppRouter {
@@ -17,6 +18,14 @@ class AppRouter {
       case Routes.homescreen:
         return MaterialPageRoute(
           builder: (_) => const HomeScreen(),
+        );
+        case Routes.editprofile:
+        return MaterialPageRoute(
+          builder: (_) => Container(),
+        );
+        case Routes.resturantDetails:
+        return MaterialPageRoute(
+          builder: (_) => ResturantDetails(),
         );
 
       default:
