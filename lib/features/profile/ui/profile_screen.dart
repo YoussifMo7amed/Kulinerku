@@ -37,14 +37,18 @@ class ProfileScreen extends StatelessWidget {
           CustomGestureDetector(
             icon: Icons.slow_motion_video,
             iconcolor: Colors.blue,
-            onTap: () {},
+            onTap: () {
+              context.pushNamed(Routes.kulinerKuinfluencer);
+            },
             text: "KulinerKu Influencer",
           ),
           verticalSpace(20.h),
           CustomGestureDetector(
             icon: Icons.logout,
             iconcolor: Colors.redAccent,
-            onTap: () {},
+            onTap: () {
+            
+            },
             text: "Log Out",
           ),
           verticalSpace(20.h),

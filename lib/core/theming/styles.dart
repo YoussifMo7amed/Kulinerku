@@ -39,6 +39,11 @@ class TextStyles {
     fontWeight: FontWeightHelper.bold,
     color: Colors.white,
   );
+     static TextStyle font14LightBlackMedium = fonts.copyWith(
+    fontSize: 15,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.lightBlack,
+  );
     static TextStyle font14deepOrangeRegular = fonts.copyWith(
     fontSize: 14,
     fontWeight: FontWeightHelper.regular,
