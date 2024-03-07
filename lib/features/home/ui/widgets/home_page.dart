@@ -2,7 +2,6 @@ import 'package:kulinerku/features/home/ui/widgets/custom_horizontal_listview.da
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kulinerku/core/theming/styles.dart';
-
 import '../../../../core/helper/spacing.dart';
 import '../../../../core/widgets/cusom_search_bar.dart';
 import 'custom_home_listview_and_text.dart';

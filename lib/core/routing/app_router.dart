@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:kulinerku/core/routing/routers.dart';
-import 'package:kulinerku/features/KulinerKuInfluencer/ui/KulinerKu_Influencer.dart';
-import 'package:kulinerku/features/KulinerKuInfluencer/ui/widgets/KulinerKu_Influencer_viedio_page.dart';
+import 'package:kulinerku/features/Kuliner_KuInfluencer/ui/KulinerKu_Influencer.dart';
+import 'package:kulinerku/features/Kuliner_KuInfluencer/ui/widgets/KulinerKu_Influencer_viedio_page.dart';
 import 'package:kulinerku/features/home/ui/home_screen.dart';
 import 'package:kulinerku/features/profile/ui/widgets/edit_profile_screen.dart';
-import '../../features/KulinerKuInfluencer/ui/widgets/kulinerKu_influencer_uploading_video.dart';
-import '../../features/home/ui/widgets/resturant_details.dart';
+import '../../features/Kuliner_KuInfluencer/ui/widgets/kulinerKu_influencer_uploading_video.dart';
+import '../../features/resturant_details/ui/resturant_details.dart';
 import '../../features/onboarding/ui/onboarding.dart';
 
 class AppRouter {

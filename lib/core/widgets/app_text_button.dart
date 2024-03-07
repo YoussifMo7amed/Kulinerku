@@ -11,6 +11,7 @@ class AppTextButton extends StatelessWidget {
   final double? buttonWidth;
   final double? buttonHeight;
   final String buttonText;
+  final Widget ?buttonIcon;
   final TextStyle textStyle;
   final VoidCallback onPressed;
   const AppTextButton({
@@ -23,7 +24,7 @@ class AppTextButton extends StatelessWidget {
     this.buttonWidth,
     required this.buttonText,
     required this.textStyle,
-    required this.onPressed,
+    required this.onPressed,  this.buttonIcon,
   });
 
   @override
@@ -49,10 +50,19 @@ class AppTextButton extends StatelessWidget {
         ),
       ),
       onPressed: onPressed,
-      child: Text(
-        buttonText,
-        style: textStyle,
-        textAlign:   TextAlign.center,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          buttonIcon??SizedBox(
+            height: 0,
+            width: 0,
+          ),
+          Text(
+            buttonText,
+            style: textStyle,
+            textAlign:   TextAlign.center,
+          ),
+        ],
       ),
     );
   }

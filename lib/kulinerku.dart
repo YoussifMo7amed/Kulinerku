@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'core/routing/app_router.dart';
 import 'core/routing/routers.dart';
 import 'core/theming/colors.dart';
-import 'generated/l10n.dart';
+import 'core/localization/generated/l10n.dart';
 
 class Kulinerku extends StatelessWidget {
   const Kulinerku({super.key, required this.appRouter});

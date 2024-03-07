@@ -8,7 +8,7 @@ import '../../../../core/helper/spacing.dart';
 class CustomHorizontalListView extends StatefulWidget {
   final List<String> categories;
 
- const CustomHorizontalListView({Key? key, required this.categories}) : super(key: key);
+ const CustomHorizontalListView({super.key, required this.categories});
 
   @override
   CustomHorizontalListViewState createState() => CustomHorizontalListViewState();
